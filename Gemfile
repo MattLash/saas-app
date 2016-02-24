@@ -9,6 +9,8 @@ gem 'sass-rails', '~> 5.0'
 
 gem 'haml'
 gem 'haml-rails'
+gem 'devise'
+gem 'milia'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -54,3 +56,5 @@ group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
+gem 'recaptcha', require: 'recaptcha/rails'
+gem 'activerecord-session_store', github: 'rails/activerecord-session_store'
