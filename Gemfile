@@ -11,6 +11,8 @@ gem 'haml'
 gem 'haml-rails'
 gem 'devise'
 gem 'milia'
+gem 'twitter-bootstrap-rails'
+gem 'devise-bootstrap-views'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
